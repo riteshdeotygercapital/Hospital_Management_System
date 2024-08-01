@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS.Server", "HMS.Server\HMS.Server.csproj", "{2627ADEA-43B9-4D8C-A854-416B08F6558E}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "hms.client", "hms.client\hms.client.esproj", "{E682CCA4-343B-4093-9083-3541478882B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2627ADEA-43B9-4D8C-A854-416B08F6558E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2627ADEA-43B9-4D8C-A854-416B08F6558E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2627ADEA-43B9-4D8C-A854-416B08F6558E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2627ADEA-43B9-4D8C-A854-416B08F6558E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E682CCA4-343B-4093-9083-3541478882B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E682CCA4-343B-4093-9083-3541478882B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E682CCA4-343B-4093-9083-3541478882B6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E682CCA4-343B-4093-9083-3541478882B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E682CCA4-343B-4093-9083-3541478882B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E682CCA4-343B-4093-9083-3541478882B6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F5DF6C1-76DB-472A-BAEB-3DE16BAAB74C}
+	EndGlobalSection
+EndGlobal
