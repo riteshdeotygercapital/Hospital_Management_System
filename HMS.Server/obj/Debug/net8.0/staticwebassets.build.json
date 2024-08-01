@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "aG6wssz1bTwEsJ4vHX5S4yQbeZw57vJEfYFS4rJCTOA=",
+  "Source": "HMS.Server",
+  "BasePath": "_content/HMS.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\shreya.katoley\\source\\repos\\HMS\\hms.client\\hms.client.esproj",
+      "Version": 2,
+      "Source": "hms.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
