@@ -37,3 +37,82 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/* src/styles.css */
+
+.dashboard-navbar, .management-navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.dashboard-navbar ul, .management-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard-navbar ul li, .management-navbar ul li {
+  margin: 0 15px;
+}
+
+.dashboard-navbar ul li a, .management-navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.dashboard-navbar ul li a:hover, .management-navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+.dashboard-content, .management {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.management ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.management ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+
+
+.table-container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.dataTables_wrapper {
+  margin-top: 20px;
+}
+
+/* src/styles.css */
+
+.table-container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.dataTables_wrapper {
+  margin-top: 20px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  padding: 0.5em;
+}
+
+.dataTables_wrapper .dataTables_filter label {
+  font-weight: bold;
+}
